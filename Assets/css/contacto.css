@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Varaible*/
+:root{
+    /* nombre_variable: valor_variable */
+    --color-empresa:rgba(121, 196, 142);
+}
+
+/* Estilos para el header */
+.logo{
+    width: 4rem;
+    margin-right: 1rem;
+}
+.nombre-empresa{
+    margin-left: 5rem;
+    font-family: 'Anton', sans-serif;
+}
+header{
+    display: flex;
+    background-color: var(--color-empresa);
+}
+/* Estilos para la barra de navegación */
+nav{
+    margin-top: 2.5rem;
+}
+
+/* Estilos para las secciones  */
+.section-img{
+    width: 60%;
+}
+
+.contenido{
+    display:flex;  
+    gap: .8rem;     
+}
+section{
+    border: 1px solid lightgray;
+    margin-top: 5rem;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+footer{
+    background-color: var(--color-empresa);
+    color: antiquewhite;
+    padding: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
